@@ -1,0 +1,228 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Travel Bucket</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #4d4c4c;
+        margin: 0;
+        padding: 0;
+      }
+      h1, h2 {
+        text-align: center;
+        font-weight: bold;
+      }
+      h1 {
+        padding-top: 15px;
+      }
+      .intro {
+        background-color: black;
+        color: wheat;
+        padding: 20px;
+        border-radius: 20px;
+        line-height: 2;
+        max-width: 1200px;
+        margin: 10px auto 40px auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .placecontainer {
+        display: flex;
+        flex-wrap: nowrap;              /* ❌ prevent wrapping */
+        gap: 20px;                      /* ✅ control spacing */
+        overflow-x: auto;               /* ✅ allow horizontal scroll if needed */
+        max-width: 100%;                /* responsive container */
+        padding: 0 20px;
+        margin:  0 auto 50px auto;
+  }
+
+
+      .place {
+        background-color: #fdfdfd;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        text-align:center;
+      }
+
+      .place:hover{
+        background-color: rgb(173, 217, 253);
+      }
+      .place img {
+        width: 100%;
+        height:200px;
+        max-height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+      .place h3 {
+        margin: 0 0 10px 0;
+        color: #222;
+      }
+      .place p {
+        font-size: 14px;
+        color: #333;
+      }
+      .place strong {
+        color: #000;
+      }
+      .place button {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000;
+        padding: 8px 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      .place button:hover {
+        background-color: #007BFF;
+        color: white;
+        border: 1px solid #007BFF;
+      }
+      .header{
+        color:green;
+        background-color:white;
+        border-radius: 20px;
+        padding:10px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .qvesys{
+        color:rgb(224, 224, 45);
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .p1{
+        display: flex;
+        flex-wrap: nowrap;              /* ❌ prevent wrapping */
+        gap: 20px;                      /* ✅ control spacing */
+        overflow-x: auto;               /* ✅ allow horizontal scroll if needed */
+        max-width: 100%;                /* responsive container */
+        padding: 0 20px;
+        margin:  0 auto 50px auto;
+      }
+
+      h2{
+        font-family: 'Times New Roman', Times, serif;
+        color: #e7e5e5;
+      }
+
+      footer{
+        background-color: #f7f4f4;
+        border-radius: 1px;
+        padding: 25px;
+      }
+
+      footer {
+        background-color: #000;
+        padding: 5px 0;
+        margin-top: 20px;
+  }
+
+      .social-icons {
+        text-align: center;
+  }
+
+      .social-icons i {
+        font-size: 24px;
+        margin: 0 15px;
+        color: white;
+        transition: color 0.3s ease;
+        cursor: pointer;
+  }
+
+      .social-icons i:hover {
+        color: #00acee; /* Instagram blue highlight */
+  }
+    
+      footer p{
+        text-align: center;
+        color: wheat;
+  }
+  @media screen and (max-width: 2560px) {
+  .body{
+    flex-direction: column;
+    align-items: center;
+  }
+    
+  }
+      
+    </style>
+  </head>
+  <body>
+    <h1 class="header"><span class="qvesys">Qvesys Info Tech</span> Travel Bucket</h1>
+    <h2>About Us</h2>
+
+    <div class="intro">
+      <p>Welcome to my travel bucket list — a personal collection of dream destinations, epic experiences, and unforgettable adventures I hope to explore in this lifetime. From hiking through Patagonia to witnessing the Northern Lights in Iceland, each journey on this list is fueled by a love for discovery, culture, and the beauty of the unknown. Whether you're here for inspiration or planning your own great escape, I hope this list sparks your wanderlust and encourages you to chase the world one place at a time.</p>
+    </div>
+
+    <div class="placecontainer">
+      <div class="place">
+        <img src="./kerala.jpg" alt="" />
+        <h3><strong>Kerala</strong></h3>
+        <p>Kerala, located in the southwestern region of India, is known for its lush landscapes, serene backwaters, rich cultural traditions, and high literacy rates. Often referred to as "God's Own Country," Kerala offers a unique blend of natural beauty, heritage, and vibrant festivals. Popular attractions include the backwaters of Alappuzha, the tea gardens of Munnar, the beaches of Kovalam, and the historic town of Fort Kochi.</p>
+        <a href="https://www.google.co.in/maps/place/Kerala/@10.4564606,74.3922854,7.54z/data=!4m15!1m8!3m7!1s0x3b0812ffd49cf55b:0x64bd90fbed387c99!2sKerala!3b1!8m2!3d10.1631526!4d76.6412712!16zL20vMGJ5aDhq!3m5!1s0x3b0812ffd49cf55b:0x64bd90fbed387c99!8m2!3d10.1631526!4d76.6412712!16zL20vMGJ5aDhq?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+        
+      </div>
+
+      <div class="place">
+        <img src="./Kashmir.jpg" alt="" />
+        <h3><strong>Kashmir</strong></h3>
+        <p>Kashmir, known as the "Paradise on Earth," is a breathtaking region in northern India famed for its snow-capped mountains, serene lakes, lush valleys, and rich culture. From the iconic Dal Lake and houseboats in Srinagar to the meadows of Gulmarg and Pahalgam, Kashmir offers unforgettable experiences year-round. We are here to help you explore its beauty, heritage, and warm hospitality.</p>
+        <a href="https://www.google.co.in/maps/place/Kashmir,+Himachal+Pradesh+177006/@31.631379,76.3943515,15.17z/data=!4m6!3m5!1s0x391b2a7b793adcfd:0x5e65f5500e37035e!8m2!3d31.6318889!4d76.4020704!16s%2Fg%2F1hjh4mzk6?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+      </div>
+
+      <div class="place">
+        <img src="./ooty.jpg" alt="" />
+        <h3><strong>Ooty</strong></h3>
+        <p>Ooty, the "Queen of Hill Stations," is nestled in the Nilgiri Hills of Tamil Nadu. Known for its cool climate, scenic landscapes, tea gardens, and colonial charm, it is a perfect getaway for nature lovers and adventure seekers. From the Nilgiri Mountain Railway to the lush Botanical Gardens and serene Ooty Lake, we help you explore the beauty and tranquility of this timeless hill station.</p>
+        <a href="https://www.google.co.in/maps/place/Ooty,+Tamil+Nadu/@11.4114278,76.6545738,13.08z/data=!4m6!3m5!1s0x3ba8bd84b5f3d78d:0x179bdb14c93e3f42!8m2!3d11.4102038!4d76.6950324!16s%2Fm%2F012n8khs?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+      </div>
+
+      
+    </div>
+
+          <div class="p1">
+          <div class="place">
+      <img src="./kodaikanal.jpg" alt="" />
+      <h3><strong>Kodaikanal</strong></h3>
+      <p>Kodaikanal, nestled in the Western Ghats of Tamil Nadu, is a charming hill station known for its mist-covered valleys, cool climate, and serene natural beauty. 
+        Perched at an altitude of 2,133 meters (7,000 feet), it offers a refreshing escape from the heat and hustle of city life.</p>
+      <a href="https://www.google.co.in/maps/place/Kodaikanal,+Tamil+Nadu/@10.236175,77.4571202,13z/data=!3m1!4b1!4m6!3m5!1s0x3b0766637f0a0387:0x9ffae9373758c13c!8m2!3d10.2391086!4d77.4977456!16zL20vMDUzNDZk?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+    </div>
+
+    <div class="place">
+      <img src="./valparai.jpg" alt="" />
+      <h3><strong>Valparai</strong></h3>
+      <p>Valparai, located in the Anamalai Hills of Tamil Nadu, is a peaceful hill station known for its sprawling tea estates, lush green landscapes, and abundant wildlife. 
+        Less commercialized than other hill stations, Valparai offers a serene, untouched charm perfect for nature lovers and solitude seekers.</p>
+      <a href="https://www.google.co.in/maps/place/Valparai,+Tamil+Nadu+642127/@10.3281658,76.9456872,15.78z/data=!4m15!1m8!3m7!1s0x3ba8279db1aa1b0f:0x86bc2b6e18667469!2sValparai,+Tamil+Nadu+642127!3b1!8m2!3d10.3269734!4d76.9553967!16zL20vMGY2bG55!3m5!1s0x3ba8279db1aa1b0f:0x86bc2b6e18667469!8m2!3d10.3269734!4d76.9553967!16zL20vMGY2bG55?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+    </div>
+
+    <div class="place">
+      <img src="./Delhi.jpg" alt="" />
+      <h3><strong>Delhi</strong></h3>
+      <p>Delhi, the capital city of India, is a vibrant blend of ancient history and modern energy. With its majestic monuments, bustling bazaars,.
+        From the grand Red Fort and towering Qutub Minar to the serene Lotus Temple and lively streets of Chandni Chowk, every corner tells a story.</p>
+      <a href="https://www.google.co.in/maps/place/Delhi/@28.6442874,76.7635617,10z/data=!3m1!4b1!4m6!3m5!1s0x390cfd5b347eb62d:0x37205b715389640!8m2!3d28.7040592!4d77.1024902!16zL20vMDlmMDc?entry=ttu&g_ep=EgoyMDI1MDcyMy4wIKXMDSoASAFQAw%3D%3D"><button><i class="fas fa-map-marker-alt"></i></button></a>
+    </div>
+  </div>
+
+    
+
+    <footer>
+      <p>© 2025 Qvesys Info Tech.</p>
+      <div class="social-icons">   
+      <a href="https://www.instagram.com/itz_me_kishan_005/"><i class="fab fa-instagram"></a></i>
+      <a href="https://www.facebook.com/kishan.519186"><i class="fab fa-facebook"></i></a>
+      </div>
+    </footer>
+  </body>
+  </html>
